@@ -7,31 +7,35 @@ This project demonstrates a real-time object detection system using pre-trained 
 ```bash
 git clone https://github.com/your-username/object-detection-project.git
 cd object-detection-project
+```
 
-2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-3. Run Detection
+### 3. Run Detection
 ```bash
 python scripts/e_run\ image.py
+```
 
-For video detection:
+### For video detection:
 ```bash
 python scripts/f_run\ video.py
+```
 
-For webcam/live detection:
+### For webcam/live detection:
 Run the notebook:
 ```bash
 notebooks/Live\ Object\ Detection.ipynb
-
-🧰 Tech Stack
+```
+### 🧰 Tech Stack
 Python
 OpenCV
 TensorFlow
 NumPy
 
-📌 Model Info
+### 📌 Model Info
 Model: SSD MobileNet v3 COCO
 Config File: ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
 Frozen Graph: frozen_inference_graph.pb
